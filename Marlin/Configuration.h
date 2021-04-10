@@ -156,7 +156,7 @@
   #ifdef TOUCH_MI_PROBE
     #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
     #define Z_MIN_PROBE_REPEATABILITY_TEST
-    #define NOZZLE_TO_PROBE_OFFSET { -43, -32, 0 }  //Offset preset for this fanduct : https://www.thingiverse.com/thing:4713319
+    #define NOZZLE_TO_PROBE_OFFSET { -30.5, -36, -2 }  //Offset preset for this fanduct : https://www.thingiverse.com/thing:4713319
     #define TOUCH_MI_RETRACT_Z 0.5                  // Height at which the probe retracts
     //#define TOUCH_MI_DEPLOY_XPOS (X_MAX_BED + 2)  // For a magnet on the right side of the bed
     //#define TOUCH_MI_MANUAL_DEPLOY                // For manual deploy (LCD menu)
